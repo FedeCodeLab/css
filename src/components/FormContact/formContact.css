@@ -1,0 +1,58 @@
+.formContact {
+	background-color: #fff;
+	padding: 60px;
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	box-shadow: 2px 0 13px rgba(0, 0, 0, 0.5);
+}
+
+.formContact div {
+	display: flex;
+}
+
+.formContact .flex {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.formContact .column {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	gap: 5px;
+}
+
+.formContact input {
+	border: none;
+	border-bottom: 2px solid #222;
+	padding: 10px;
+}
+
+.formContact input:focus {
+	outline-color: blue;
+	border: 1px solid transparent;
+}
+
+.formContact label {
+	font-weight: 600;
+	font-size: 0.8rem;
+}
+
+.formContact textarea {
+	border: none;
+	border-bottom: 2px solid #222;
+	padding: 10px;
+	max-width: 100%;
+	max-width: 100%;
+	max-height: 100px;
+	min-height: 100px;
+}
+
+.formContact textarea:focus {
+	outline-color: blue;
+	border: 1px solid transparent;
+}
